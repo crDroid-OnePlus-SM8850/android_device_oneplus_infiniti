@@ -1107,7 +1107,6 @@ odm/lib64/libremosaiclib.so
 odm/lib64/libsat.so
 odm/lib64/libsaveshaderbin.so
 odm/lib64/libsharebuffer.so
-odm/lib64/libsharebuffer_impl.so
 odm/lib64/libssd_det.so
 odm/lib64/libtensorflowlite_oplus.so
 odm/lib64/libtrace.so

@@ -827,6 +827,14 @@ odm/lib64/camera/components/com.oplus.stats.awb.so
 odm/lib64/camera/components/com.oplus.stats.pdlib.so
 odm/lib64/camera/components/libcamxoemsatsoftwarefusionwrapper.so
 odm/lib64/camera/components/libcamxoemsatwrapper.so
+# OEM camera layer: generation-locked to the infiniti donor.
+odm/lib64/hw/camera.oemlayer.v2.so;DISABLE_CHECKELF;DISABLE_DEPS
+odm/lib64/camera.oemlayer.adapter.so;DISABLE_CHECKELF;DISABLE_DEPS
+odm/lib64/camera.oemlayer.healthmonitor.so;DISABLE_CHECKELF;DISABLE_DEPS
+odm/lib64/camera.oemlayer.logger.so;DISABLE_CHECKELF;DISABLE_DEPS
+odm/lib64/camera.oemlayer.uilayer.so;DISABLE_CHECKELF;DISABLE_DEPS
+odm/lib64/libsensorbridge.so
+odm/lib/libsensorbridge.so;MAKE_COPY_RULE_ONLY
 odm/lib64/camera/awb_parameter_default.bin
 odm/lib64/camera/com.qti.sensor.infinitifront.so
 odm/lib64/camera/com.qti.sensor.infinitimain.so
@@ -903,10 +911,6 @@ odm/lib64/bm6a81v08s14n80.bin
 odm/lib64/bm6a81v08s14n83.bin
 odm/lib64/bm6a81v08s14n85.bin
 odm/lib64/bm6a81v08s14n86.bin
-odm/lib64/camera.oemlayer.adapter.so
-odm/lib64/camera.oemlayer.healthmonitor.so
-odm/lib64/camera.oemlayer.logger.so
-odm/lib64/camera.oemlayer.uilayer.so
 odm/lib64/com.oplus.mcx.linearmapper.so
 odm/lib64/com.oplus.node.preview.v2.so
 odm/lib64/lib2DSlender.so

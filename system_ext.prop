@@ -1,2 +1,9 @@
 # IFAA
 sys.oplus.ifaa.model=ONEPLUS-R24831
+
+# Display
+persist.oplus.display.vrr.adfr=2
+ro.oplus.display.ltpo_always_on=true
+sys.oplus.ltpo.mode_switch_pending=false
+sys.oplus.ltpo.qsync_active=false
+sys.oplus.ltpo.display_on=false

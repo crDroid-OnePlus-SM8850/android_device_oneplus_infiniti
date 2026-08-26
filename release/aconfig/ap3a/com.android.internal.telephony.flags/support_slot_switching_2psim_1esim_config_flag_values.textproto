@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "support_slot_switching_2psim_1esim_config"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,10 @@
+// SPDX-FileCopyrightText: 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+aconfig_values {
+  name: "aconfig-values-device-oneplus-infiniti-ap3a-com.android.internal.telephony.flags",
+  package: "com.android.internal.telephony.flags",
+  srcs: [
+    "*_flag_values.textproto",
+  ]
+}

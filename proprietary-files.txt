@@ -833,7 +833,7 @@ odm/lib64/camera.oemlayer.adapter.so;DISABLE_CHECKELF;DISABLE_DEPS
 odm/lib64/camera.oemlayer.healthmonitor.so;DISABLE_CHECKELF;DISABLE_DEPS
 odm/lib64/camera.oemlayer.logger.so;DISABLE_CHECKELF;DISABLE_DEPS
 odm/lib64/camera.oemlayer.uilayer.so;DISABLE_CHECKELF;DISABLE_DEPS
-odm/lib64/libsensorbridge.so
+odm/lib64/libsensorbridge.so;MODULE_SUFFIX=_infiniti
 odm/lib/libsensorbridge.so;MAKE_COPY_RULE_ONLY
 odm/lib64/camera/awb_parameter_default.bin
 odm/lib64/camera/com.qti.sensor.infinitifront.so

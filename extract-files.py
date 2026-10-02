@@ -29,18 +29,21 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
 
+def lib_fixup_infiniti_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}_infiniti'
+
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
         'libhcsutils',
     ): lib_fixup_vendor_suffix,
+    (
+        'libsensorbridge',
+    ): lib_fixup_infiniti_suffix,
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
-        # Disable face detection AE behaviour
-        .regex_replace(r'(enableSWfdForThirdCamUnit += )TRUE', r'\1FALSE')
-        .regex_replace(r'(fdSupport += )TRUE;', r'\1FALSE;'),
     'odm/etc/init/init.camera_process.rc': blob_fixup()
         .regex_replace('    delete_recursion', '    #delete_recursion'),
     (

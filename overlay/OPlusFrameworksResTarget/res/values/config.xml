@@ -267,9 +267,9 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 0,83
-        M -41,83
-        A 41,41 0 1,0 41,83
-        A 41,41 0 1,0 -41,83
+        M -37,83
+        A 37,37 0 1,0 37,83
+        A 37,37 0 1,0 -37,83
         Z
     </string>
 
@@ -282,7 +282,7 @@
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M -39,0
         L -39,141
-        L 38,141
+        L 39,141
         L 39,0
         Z
     </string>

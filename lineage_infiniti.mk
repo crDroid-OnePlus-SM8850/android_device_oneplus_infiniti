@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from infiniti device
 $(call inherit-product, device/oneplus/infiniti/device.mk)
 
+# USB webcam mode (DeviceAsWebcam)
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 

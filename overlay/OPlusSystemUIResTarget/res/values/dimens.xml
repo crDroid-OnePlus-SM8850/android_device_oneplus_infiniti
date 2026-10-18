@@ -4,6 +4,11 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Shade header (clock, date, system icons while the shade is pulled down): the row is
+         centred like the collapsed status bar, whose content is centred on the camera hole at
+         y=83px: 166px / 2 -->
+    <dimen name="large_screen_shade_header_min_height">166px</dimen>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0dp</dimen>
 

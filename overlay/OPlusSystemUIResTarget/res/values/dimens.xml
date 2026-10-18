@@ -4,6 +4,14 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Top padding of the status bar content: the bar is the cutout height (141px) but the
+         content stays centered on the camera hole (y=83px): (141 + 25) / 2 -->
+    <dimen name="status_bar_padding_top">25px</dimen>
+
+    <!-- Lock screen: the header is 25px shorter than before (141px instead of 166px), so push
+         the clock down by the same amount to keep it where it was: 16dp (56px) + 25px -->
+    <dimen name="keyguard_clock_top_margin">81px</dimen>
+
     <!-- Shade header (clock, date, system icons while the shade is pulled down): the row is
          centred like the collapsed status bar, whose content is centred on the camera hole at
          y=83px: 166px / 2 -->
